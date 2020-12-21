@@ -37,8 +37,8 @@ public class WTN implements ModInitializer{
 
         TranslatableText text = new TranslatableText(
                 "chat.type.announcement",
-                "流浪商人",
-                "GKD出来交易 ["+x+", "+y+", "+z+"]:"
+                "Wandering Trader",
+                "I am here: ["+x+", "+y+", "+z+"], trading "
         );
         for (TradeOffer offer : e.getOffers()){
             text.append(offer.getSellItem().toHoverableText());

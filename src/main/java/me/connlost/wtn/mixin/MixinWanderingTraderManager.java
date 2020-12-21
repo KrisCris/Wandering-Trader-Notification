@@ -35,7 +35,7 @@ public abstract class MixinWanderingTraderManager {
 
 //    @Inject(method = "spawn", at=@At("HEAD"))
 //    private void setChance(ServerWorld world, boolean spawnMonsters, boolean spawnAnimals, CallbackInfoReturnable<Integer> cir){
-////        this.spawnChance = 25;
+//        this.spawnChance = 25;
 //        this.spawnDelay = -1;
 //        this.spawnTimer = -1;
 //    }
